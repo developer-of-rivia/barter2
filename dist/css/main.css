@@ -435,7 +435,7 @@ html {
   font-size: 18px;
   line-height: 140%;
   color: #fff;
-  font-family: 'TT Firs Neue';
+  font-family: TTFirsNeue;
   max-width: 600px;
   width: 600px;
   margin-bottom: 30px
@@ -666,7 +666,7 @@ html {
   max-width: 920px;
   margin: 0 auto 75px;
   text-align: center;
-  font-family: 'TT Firs Neue'
+  font-family: TTFirsNeue
 }
 .how__item {
   text-align: center;
