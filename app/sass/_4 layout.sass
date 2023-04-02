@@ -1,0 +1,27 @@
+.container
+	max-width: 1140px
+	margin: 0 auto
+/* для маленьких мониторов и больших планшетов и обычных планшетов в горизонтальной ротации */
+/* т.е мониторы и плашеты (1024-1260) */
+@media screen and (max-width: 1200px)
+	.container
+		max-width: 950px
+/* для обычных планшетов в вертикальной ротации */
+/* т.е плашеты (650-991) */
+@media screen and (max-width: 991px)
+	.container
+		max-width: 720px
+		padding: 0 15px
+/* для телефонов */
+/* т.е телефоны (320-650) */
+@media screen and (max-width: 720px)
+	.container
+		max-width: 520px
+		padding: 0 15px
+@media screen and (max-width: 574px)
+	.container
+		max-width: 100%
+		padding: 0 20px
+@media screen and (max-width: 480px)
+	.container
+		padding: 0 15px
