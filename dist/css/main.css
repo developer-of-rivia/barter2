@@ -425,6 +425,7 @@ html {
   -ms-hyphens: auto;
   hyphens: auto
 }
+.main__title .br-mobile,
 .main__title .br-tablet {
   display: none
 }
@@ -2784,6 +2785,9 @@ html {
     position: relative;
     z-index: 10;
     max-width: 85%
+  }
+  .main__title .br-mobile {
+    display: block
   }
   .main__text {
     width: 100%;

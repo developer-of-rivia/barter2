@@ -711,6 +711,16 @@ html, body {
   }
 }
 
+.main__title .br-mobile {
+  display: none;
+}
+
+@media (max-width: 574px) {
+  .main__title .br-mobile {
+    display: block;
+  }
+}
+
 .main__content {
   width: 630px;
 }
